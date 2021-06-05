@@ -1,0 +1,8 @@
+[Unit]
+Description=Sonar mail composer
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /root/email-report/scripts/sonar-report.py
+ExecStop=/bin/kill -15 $MAINPID
+[Install]
+WantedBy=multi-user.target

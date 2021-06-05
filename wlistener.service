@@ -1,0 +1,8 @@
+[Unit]
+Description=Sonar webhook Listener
+[Service]
+Type=simple
+ExecStart=/usr/bin/python /root/email-report/scripts/wlistener.py
+ExecStop=/bin/kill -15 $MAINPID
+[Install]
+WantedBy=multi-user.target
