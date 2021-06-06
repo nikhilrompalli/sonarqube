@@ -18,7 +18,7 @@ SONAR_HOST = '127.0.0.1'
 SONAR_PORT = '9000'
 JENKINS_HOST = '127.0.0.1'
 JENKINS_PORT = '8080'
-SONAR_API_TOKEN = 'ZGV2bJIbjnjUUIOmAxMjM='
+SONAR_API_TOKEN = ''
 CHANGELOG_URL = "http://%s:%s/job/%s/%s/api/json"
 JENKINS_JOB_DESCRIBE  = "http://%s:%s/job/%s/%s/wfapi/describe"
 LAST_SUCCESSFULL_BUILD_URL = "http://%s:%s/job/%s/lastSuccessfulBuild/api/json"
